@@ -1,0 +1,42 @@
+{
+  "name": "@dovocode/enum",
+  "version": "1.0.0",
+  "description": "Create enums in JavaScript and TypeScript. Works out of the box with stripTypes. Ready for any build process.",
+  "main": "dist/main.js",
+  "module": "dist/main.js",
+  "type": "module",
+  "types": "dist/main.d.ts",
+  "keywords": [
+    "enum",
+    "enumerated",
+    "enum8",
+    "enum8.js",
+    "enum8.ts",
+    "stripTypes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dovocode/enum.git"
+  },
+  "scripts": {
+    "test": "vitest --typecheck",
+    "lint": "eslint . --ext .ts",
+    "build": "tsc --project tsconfig.build.json"
+  },
+  "files": [
+    "dist",
+    "package.json",
+    "package-lock.json",
+    "README.md"
+  ],
+  "author": "Dominic Vonk",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "eslint": "^9.39.1",
+    "eslint-config-prettier": "^10.1.8",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.46.4",
+    "vitest": "^4.0.8"
+  }
+}
