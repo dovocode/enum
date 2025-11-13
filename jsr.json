@@ -1,6 +1,6 @@
 {
-  "name": "@dominicvonk/enum",
-  "version": "1.0.6",
+  "name": "@dovocode/enum",
+  "version": "1.0.0",
   "license": "MIT",
   "exports": "./src/main.ts"
 }
